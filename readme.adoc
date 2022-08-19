@@ -1,0 +1,15 @@
+== Installation
+
+[source,bash]
+----
+# Install packages
+sudo apt install -y initramfs-tools-core
+----
+
+== Operation
+
+[source,bash]
+----
+# Build initramfs
+sudo mkinitramfs -d ./initramfs-tools -o ~/initrd.gz
+----
